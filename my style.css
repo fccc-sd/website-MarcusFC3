@@ -1,21 +1,32 @@
 h1{
 color:rgb(96, 0, 252) ;
 text-align: center;
+font-size: 2.55em;
+line-height: 2em;
 }
+
 h3{
-color:rgb(135, 66, 247)
-
-
+color:rgb(115, 58, 221);
+font-size: 1.7em;
 }
+
 p{
-color:blue ;
-
+color:rgb(0, 0, 255) ;
+font-size: 1.2em;
+font-weight: 500 ;
 }
+
 ul{
 color:blue ;
-
+font-size: 1.3em ;
+font-weight:500
 }
+
 html{
-background-color:rgb(139, 174, 240)
+background-color:rgba(127, 255, 238, 0.336);
+}
+
+a{
+font-size: 1.5em;
 
 }
