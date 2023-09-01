@@ -2,10 +2,10 @@
     this .css file is used to customize the look of my
     webpage by changing the colors of the text and background, line height,
     aligning my title to the center of the page, and changing the font size, weight, and type.
-    the h1 section edits my title
+    "header" edits my title and sub title.
 */
 
-h1{
+header{
     color:rgb(96, 0, 252) ;
     text-align: center;
     font-size: 2.55em;
@@ -22,20 +22,28 @@ h3{
     font-weight:600
 }
 
-/* p edits main text that goes underneath the sub headers */
+/* the "maintext" class edits the majority of the text on my page underneath the sub headers */
 
-p{
+.maintext{
     color:rgb(0, 0, 255) ;
     font-size: 1.2em;
     font-weight: 500 ;
     font-family: 'Times New Roman', Times, serif;
 }
 
+/* the id interest edits the words "fitness and videogames" in the interest section to make them stand out. */
+
+#interest{
+    color:rgb(98, 10, 231);
+    font-size:1.25em;
+    text-decoration-line: underline;
+}
+
 /* ul edits the list on my interest section */
 
 ul{
-    color:blue ;
-    font-size: 1.3em ;
+    color:rgb(89, 0, 255) ;
+    font: 1.3em 'Times New Roman', Times, serif, bold  ;
     font-weight:500
 }
 
@@ -45,7 +53,7 @@ html{
     background-color:rgba(102, 247, 216, 0.74);
 }
 
-/* end edits my two hyperlinks and copyright tag */
+/* "footer" edits my two hyperlinks and copyright tag */
 
 footer{
     text-align: center; 
