@@ -2,13 +2,13 @@
     this .css file is used to customize the look of my
     webpage by changing the colors of the text and background, line height,
     aligning my title to the center of the page, and changing the font size, weight, and type.
-    "header" edits my title and sub title.
+    the header semantic element edits my title and sub title.
 */
 
 header{
     color:rgb(96, 0, 252) ;
     text-align: center;
-    font-size: 2.55em;
+    font-size: 2.02em;
     font-family:Arial, Helvetica, sans-serif;
     line-height: 2em;
     background-color: rgb(102, 247, 216); 
@@ -18,13 +18,13 @@ header{
 
 h3{
     color:rgb(115, 58, 221);
-    font: 1.7em 'Courier New', Courier, monospace;
+    font: 1.56em 'Courier New', Courier, monospace;
     font-weight:600
 }
 
-/* the "maintext" class edits the majority of the text on my page underneath the sub headers */
+/* the "main" semantic element edits the majority of the text on my page underneath the sub headers */
 
-.maintext{
+main{
     color:rgb(0, 0, 255) ;
     font-size: 1.2em;
     font-weight: 500 ;
@@ -35,15 +35,16 @@ h3{
 
 #interest{
     color:rgb(98, 10, 231);
-    font-size:1.25em;
+    font-size:1.21em;
     text-decoration-line: underline;
+    font-style: italic;
 }
 
-/* ul edits the list on my interest section */
+/* the div "interestlist" edits the list on my interest section */
 
-ul{
+.interestlist{
     color:rgb(89, 0, 255) ;
-    font: 1.3em 'Times New Roman', Times, serif, bold  ;
+    font: 1.3em 'Times New Roman', Times, serif, bold;
     font-weight:500
 }
 
@@ -53,7 +54,7 @@ html{
     background-color:rgba(102, 247, 216, 0.74);
 }
 
-/* "footer" edits my two hyperlinks and copyright tag */
+/* the footer semantic element edits my two hyperlinks and copyright tag */
 
 footer{
     text-align: center; 
