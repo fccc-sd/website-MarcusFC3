@@ -13,6 +13,11 @@ header{
     line-height: 2em;
     background-color: rgb(102, 247, 216); 
 }
+ /* body edits the entire webpage */
+
+body{
+    background-color:rgba(102, 247, 216, 0.74);
+}
 
 /* h3 edits my sub headers(about me, interest, and goals) */
 
@@ -31,27 +36,27 @@ main{
     font-family: 'Times New Roman', Times, serif;
 }
 
-/* the id interest edits the words "fitness and videogames" in the interest section to make them stand out. */
+/* the div "interest" edits the words "Fitness Videogames and Music" in the interest section to make them stand out. */
 
-#interest{
+.interest{
     color:rgb(98, 10, 231);
-    font-size:1.21em;
+    font-size:1.4em;
     text-decoration-line: underline;
     font-style: italic;
 }
 
-/* the div "interestlist" edits the list on my interest section */
+/* the div "goallist" edits the list on my goals section */
 
-.interestlist{
+.goallist{
     color:rgb(89, 0, 255) ;
     font: 1.3em 'Times New Roman', Times, serif, bold;
     font-weight:500
 }
 
-/* html edits the entire webpage */
+/*The nscc class edits the link to Northweststate.edu within my span*/
 
-html{
-    background-color:rgba(102, 247, 216, 0.74);
+#nscc{
+    font-weight:bold
 }
 
 /* the footer semantic element edits my two hyperlinks and copyright tag */
