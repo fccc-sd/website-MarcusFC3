@@ -6,50 +6,61 @@
 */
 
 header{
-    color:rgb(96, 0, 252) ;
+    color:rgb(92, 10, 245);
     text-align: center;
-    font-size: 2.02em;
     font-family:Arial, Helvetica, sans-serif;
-    line-height: 2em;
-    background-color: rgb(102, 247, 216); 
+    background-color: rgba(20, 170, 255, 0.22);; 
 }
- /* body edits the entire webpage */
+
+/* h1 edits my main title text*/
+
+h1{
+    font-size: 3em;
+}
+
+/* h4 edits my subtitle text*/
+
+h4{
+    font-size: 1.5em;
+}
+
+/* body edits the entire webpage */
 
 body{
-    background-color:rgba(102, 247, 216, 0.74);
+    background-color:rgba(10, 182, 245, 0.35); 
+    max-width: 960;
 }
 
 /* h3 edits my sub headers(about me, interest, and goals) */
 
 h3{
-    color:rgb(115, 58, 221);
-    font: 1.56em 'Courier New', Courier, monospace;
-    font-weight:600
+    color:rgb(100, 10, 245);
+    font-size: 1.4em;
+    font-weight:bolder;
 }
 
 /* the "main" semantic element edits the majority of the text on my page underneath the sub headers */
 
 main{
-    color:rgb(0, 0, 255) ;
-    font-size: 1.2em;
-    font-weight: 500 ;
-    font-family: 'Times New Roman', Times, serif;
+    color:rgb(41, 86, 235);
+    line-height: 1.5;
+    font-family:Arial, Helvetica, sans-serif;
 }
-
 /* the div "interest" edits the words "Fitness Videogames and Music" in the interest section to make them stand out. */
 
 .interest{
-    color:rgb(98, 10, 231);
-    font-size:1.4em;
+    
+    font-size: 1.3em;
     text-decoration-line: underline;
     font-style: italic;
+    color:rgb(6, 68, 161);
 }
 
 /* the div "goallist" edits the list on my goals section */
 
 .goallist{
-    color:rgb(89, 0, 255) ;
-    font: 1.3em 'Times New Roman', Times, serif, bold;
+    color:rgb(6, 68, 161);
+    font: 1.3em Arial, Helvetica, sans-serif;
     font-weight:500
 }
 
