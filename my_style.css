@@ -5,75 +5,77 @@
     the header semantic element edits my title and sub title.
 */
 
-header{
-    color:rgb(92, 10, 245);
+header {
+    color: #2E4472;
     text-align: center;
-    font-family:Arial, Helvetica, sans-serif;
-    background-color: rgba(20, 170, 255, 0.22);; 
+    font-family: Arial, Helvetica, sans-serif;
+
 }
 
 /* h1 edits my main title text*/
 
-h1{
+h1 {
     font-size: 3em;
 }
 
 /* h4 edits my subtitle text*/
 
-h4{
+h4 {
     font-size: 1.5em;
 }
 
 /* body edits the entire webpage */
 
-body{
-    background-color:rgba(10, 182, 245, 0.35); 
-    max-width: 960;
+body {
+    background-color: #7288A6;
 }
 
 /* h3 edits my sub headers(about me, interest, and goals) */
 
-h3{
-    color:rgb(100, 10, 245);
+h3 {
+    color: #3B3276;
     font-size: 1.4em;
-    font-weight:bolder;
+    font-weight: bolder;
 }
 
 /* the "main" semantic element edits the majority of the text on my page underneath the sub headers */
 
-main{
-    color:rgb(41, 86, 235);
+main {
+    color: #142E53;
     line-height: 1.5;
-    font-family:Arial, Helvetica, sans-serif;
+    font-family: Arial, Helvetica, sans-serif;
 }
+
 /* the div "interest" edits the words "Fitness Videogames and Music" in the interest section to make them stand out. */
 
-.interest{
-    
+.interest {
     font-size: 1.3em;
     text-decoration-line: underline;
     font-style: italic;
-    color:rgb(6, 68, 161);
+    color: #2C4970;
 }
 
 /* the div "goallist" edits the list on my goals section */
 
-.goallist{
-    color:rgb(6, 68, 161);
+.goallist {
+    color: #2C4970;
     font: 1.3em Arial, Helvetica, sans-serif;
-    font-weight:500
+    font-weight: 500
 }
+
 
 /*The nscc class edits the link to Northweststate.edu within my span*/
 
-#nscc{
-    font-weight:bold
+#nscc {
+    font-weight: bold
 }
 
 /* the footer semantic element edits my two hyperlinks and copyright tag */
 
-footer{
-    text-align: center; 
+footer {
+    color: #0D5142;
+    background-color: #A1C8C0;
+    text-align: center;
     font-size: 1.15em;
-    font-weight:bold
+    font-weight: bold
 }
