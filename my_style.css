@@ -79,3 +79,25 @@ footer {
     font-size: 1.15em;
     font-weight: bold
 }
+
+nav{
+    background-color: #A1C8C0;
+    line-height: 2em;
+    display: block;
+}
+nav li{
+    display: inline;
+    padding-right: 40px;
+    list-style-type: none;
+}
+nav a:link{
+    color:white;
+    text-decoration:none;
+}
+nav a:visited{
+    color:#0D5142;
+}
+nav a:hover{
+    text-decoration:underline;
+    color: #166812;
+}
