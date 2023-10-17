@@ -101,3 +101,8 @@ nav a:hover{
     text-decoration:underline;
     color: #166812;
 }
+
+iframe {
+    text-align: center;
+
+}
